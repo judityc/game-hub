@@ -6,16 +6,11 @@ import { Outlet } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <>
       <HStack padding="10px">
         <Image src={logo} boxSize="60px" />
         <SearchInput />
         <ColorModeSwitch />
       </HStack>
-      <div id="main">
-        <Outlet />
-      </div>
-    </>
   );
 };
 
